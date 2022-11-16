@@ -31,10 +31,8 @@ export default class AccountDatatable extends LightningElement {
     
     handleRowAction(event){
         event.preventDefault();     
-        this.accountidfrmparent = event.target.dataset.accountid;       
+        this.accountidfrmparent = event.target.dataset.accountid;      // here maybe this would not handling the event "view" properly but it think it shall work
     }
-
-
 
 }
 
