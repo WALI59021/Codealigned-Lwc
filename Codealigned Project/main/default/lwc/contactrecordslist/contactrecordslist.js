@@ -1,4 +1,4 @@
-import { LightningElement } from 'lwc';
+import { LightningElement,wire,api } from 'lwc';
 
 import ContactListsFromAccount from '@salesforce/apex/ContactListFromAccount.findContactByAccountId';
 const columns =  [
