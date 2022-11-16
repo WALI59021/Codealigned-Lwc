@@ -12,7 +12,7 @@ export default class Contactrecordslist extends LightningElement {
 
     columns = columns;
     @api accountId;
-    @wire(findContactByAccountId,{accountId:'$accountId'}) contacts;
+    @wire(ContactListsFromAccount,{accountId:'$accountId'}) contacts;
 
 
 }
