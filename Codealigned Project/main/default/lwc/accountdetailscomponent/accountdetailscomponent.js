@@ -1,4 +1,4 @@
-import { LightningElement } from 'lwc';
+import { LightningElement,wire,api } from 'lwc';
 import accountdetailsByAccountId from '@salesforce/apex/Accountdetailsclass.accountdetailsByAccountId';
 
 const columns =[
