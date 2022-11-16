@@ -1,0 +1,27 @@
+<template>
+    <!-- PLEASE READ THE BELOW COMMENTS  -->
+    <div>
+        <lightning-datatable if:true={Accounts.data}
+            key-field="id"
+            data={Accounts.data}
+            columns={columns}
+            onrowaction={handleRowAction}>   
+        </lightning-datatable>
+    </div>
+
+
+    <lightning-layout-item padding="around-small" size="10">
+        <c-contact-records-list account-id={accountidfrmparent}></c-contact-records-list> 
+    </lightning-layout-item>
+</template>
+
+
+
+
+
+
+
+
+
+
+
