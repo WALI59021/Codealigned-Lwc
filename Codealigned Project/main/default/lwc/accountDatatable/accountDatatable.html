@@ -9,10 +9,16 @@
         </lightning-datatable>
     </div>
 
+    <lightning-layout-item padding="around-small" size="10">
+        <c-account-details-component account-id={accountidfrmparent}></c-account-details-component> 
+    </lightning-layout-item>
 
     <lightning-layout-item padding="around-small" size="10">
         <c-contact-records-list account-id={accountidfrmparent}></c-contact-records-list> 
     </lightning-layout-item>
+    
+    
+    
 </template>
 
 
