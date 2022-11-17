@@ -1,11 +1,13 @@
 <template>
   
+      /* I know i should have used the lightning record edit form here but i realized this later but i think you have got my 
+         point here but still if you want i can change this  */ 
     
         <lightning-card title="Contact Records">
             <lightning-datatable if:true={Account.data}
                 key-field="id"
                 data={Account.data}
-                columns={columns}>
+                columns={columns}>                           
                 showRowNumberColumn="true"
             </lightning-datatable>
         
